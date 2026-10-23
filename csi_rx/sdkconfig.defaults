@@ -1,0 +1,3 @@
+# Без этой строки Wi-Fi драйвер вообще не отдает CSI, колбэк просто не будет вызываться
+CONFIG_ESP_WIFI_CSI_ENABLED=y
+CONFIG_FREERTOS_HZ=1000
